@@ -1,6 +1,6 @@
 FROM centos:7
 
-ENV K8S_VERSION v1.16.12
+ENV K8S_VERSION v1.16.13
 
 RUN curl -s -j -k -L -O https://dl.k8s.io/${K8S_VERSION}/kubernetes.tar.gz
 RUN curl -s -j -k -L -O https://dl.k8s.io/${K8S_VERSION}/kubernetes-client-linux-amd64.tar.gz
